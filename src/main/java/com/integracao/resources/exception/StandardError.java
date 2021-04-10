@@ -4,7 +4,6 @@ import java.io.Serializable;
 
 public class StandardError implements Serializable {
 
-	//não precisa de hashcode e equals
 	private static final long serialVersionUID = 1L;
 	private Integer status;
 	private String msg;

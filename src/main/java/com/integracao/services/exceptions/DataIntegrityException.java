@@ -8,7 +8,6 @@ public class DataIntegrityException extends RuntimeException {
 		super(msg);
 	}
 	
-	//recebe a mensagem e outra execeção
 	public DataIntegrityException(String msg, Throwable cause) {
 		super(msg, cause);
 	}

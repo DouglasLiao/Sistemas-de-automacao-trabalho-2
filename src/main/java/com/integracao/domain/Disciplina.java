@@ -14,7 +14,7 @@ public class Disciplina implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY) //Definindo a estratégia de geração automática com os IDs
+	@GeneratedValue(strategy = GenerationType.IDENTITY) 
 	private Integer id;
 	
 	private String codigo;
