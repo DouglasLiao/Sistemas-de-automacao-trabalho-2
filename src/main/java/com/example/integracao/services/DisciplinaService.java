@@ -1,4 +1,4 @@
-package com.integracao.services;
+package com.example.integracao.services;
 
 import java.util.List;
 import java.util.Optional;
@@ -13,11 +13,11 @@ import org.springframework.data.domain.Sort.Direction;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.integracao.domain.Disciplina;
-import com.integracao.dto.DisciplinaDTO;
-import com.integracao.repositories.DisciplinaRepository;
-import com.integracao.services.exceptions.DataIntegrityException;
-import com.integracao.services.exceptions.ObjectNotFoundException;
+import com.example.integracao.domain.Disciplina;
+import com.example.integracao.dto.DisciplinaDTO;
+import com.example.integracao.repositories.DisciplinaRepository;
+import com.example.integracao.services.exceptions.DataIntegrityException;
+import com.example.integracao.services.exceptions.ObjectNotFoundException;
 
 @Service
 public class DisciplinaService {

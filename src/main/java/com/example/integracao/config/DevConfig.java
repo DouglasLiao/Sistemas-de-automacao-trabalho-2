@@ -1,4 +1,4 @@
-package com.integracao.config;
+package com.example.integracao.config;
 
 import java.text.ParseException;
 
@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-import com.integracao.services.DBService;
+import com.example.integracao.services.DBService;
 
 @Configuration
 @Profile("dev")

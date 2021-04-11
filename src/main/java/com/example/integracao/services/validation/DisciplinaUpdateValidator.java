@@ -1,4 +1,4 @@
-package com.integracao.services.validation;
+package com.example.integracao.services.validation;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,9 +11,9 @@ import javax.validation.ConstraintValidatorContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.servlet.HandlerMapping;
 
-import com.integracao.dto.DisciplinaDTO;
-import com.integracao.repositories.DisciplinaRepository;
-import com.integracao.resources.exception.FieldMessage;
+import com.example.integracao.dto.DisciplinaDTO;
+import com.example.integracao.repositories.DisciplinaRepository;
+import com.example.integracao.resources.exception.FieldMessage;
 
 public class DisciplinaUpdateValidator implements ConstraintValidator<DisciplinaUpdate, DisciplinaDTO> {
 

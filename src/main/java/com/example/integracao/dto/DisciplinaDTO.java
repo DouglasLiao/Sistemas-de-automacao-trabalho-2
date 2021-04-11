@@ -1,4 +1,4 @@
-package com.integracao.dto;
+package com.example.integracao.dto;
 
 import java.io.Serializable;
 
@@ -6,8 +6,8 @@ import javax.validation.constraints.NotNull;
 
 import org.hibernate.validator.constraints.Length;
 
-import com.integracao.domain.Disciplina;
-import com.integracao.services.validation.DisciplinaUpdate;
+import com.example.integracao.domain.Disciplina;
+import com.example.integracao.services.validation.DisciplinaUpdate;
 
 @DisciplinaUpdate
 public class DisciplinaDTO  implements Serializable{

@@ -1,4 +1,4 @@
-package com.integracao.resources;
+package com.example.integracao.resources;
 
 import java.net.URI;
 import java.util.List;
@@ -17,9 +17,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.integracao.domain.Disciplina;
-import com.integracao.dto.DisciplinaDTO;
-import com.integracao.services.DisciplinaService;
+import com.example.integracao.domain.Disciplina;
+import com.example.integracao.dto.DisciplinaDTO;
+import com.example.integracao.services.DisciplinaService;
 
 @RestController
 @RequestMapping(value="/disciplina")

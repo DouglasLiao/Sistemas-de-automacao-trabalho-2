@@ -1,4 +1,4 @@
-package com.integracao.resources.exception;
+package com.example.integracao.resources.exception;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -9,8 +9,8 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.integracao.services.exceptions.DataIntegrityException;
-import com.integracao.services.exceptions.ObjectNotFoundException;
+import com.example.integracao.services.exceptions.DataIntegrityException;
+import com.example.integracao.services.exceptions.ObjectNotFoundException;
 
 @ControllerAdvice
 public class ResourceExceptionHandler {
