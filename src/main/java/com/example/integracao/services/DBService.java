@@ -1,4 +1,4 @@
-package com.integracao.services;
+package com.example.integracao.services;
 
 import java.text.ParseException;
 import java.util.Arrays;
@@ -6,8 +6,8 @@ import java.util.Arrays;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.integracao.domain.Disciplina;
-import com.integracao.repositories.DisciplinaRepository;
+import com.example.integracao.domain.Disciplina;
+import com.example.integracao.repositories.DisciplinaRepository;
 
 @Service
 public class DBService {

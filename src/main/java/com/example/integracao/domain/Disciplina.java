@@ -1,4 +1,4 @@
-package com.integracao.domain;
+package com.example.integracao.domain;
 
 import java.io.Serializable;
 

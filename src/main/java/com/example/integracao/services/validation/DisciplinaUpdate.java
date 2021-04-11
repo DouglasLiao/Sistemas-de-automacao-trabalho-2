@@ -1,4 +1,4 @@
-package com.integracao.services.validation;
+package com.example.integracao.services.validation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

@@ -1,4 +1,4 @@
-package com.integracao.resources.exception;
+package com.example.integracao.resources.exception;
 
 import java.io.Serializable;
 

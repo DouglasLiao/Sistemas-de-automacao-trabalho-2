@@ -1,4 +1,4 @@
-package com.integracao.services.exceptions;
+package com.example.integracao.services.exceptions;
 
 public class ObjectNotFoundException extends RuntimeException {
 
