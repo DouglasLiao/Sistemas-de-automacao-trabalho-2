@@ -13,7 +13,6 @@ import org.springframework.data.domain.Sort.Direction;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-
 import com.integracao.domain.Disciplina;
 import com.integracao.dto.DisciplinaDTO;
 import com.integracao.repositories.DisciplinaRepository;
